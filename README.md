@@ -14,11 +14,11 @@ $ npm install --save gulp-htmlmin
 
 ## Heads up!
 
-_**Please do not report issues related to HTML parsing and output on this repository. Report those issues to the [html-minifier](https://github.com/kangax/html-minifier/issues) issue tracker.**_
+_**Please do not report issues related to HTML parsing and output on this repository. Report those issues to the [html-minifier-terser](https://github.com/DanielRuf/html-minifier-terser/issues) issue tracker.**_
 
 ## Usage
 
-See the [html-minifer docs](https://github.com/kangax/html-minifier) for all available options.
+See the [html-minifer-terser docs](https://github.com/DanielRuf/html-minifier-terser) for all available options.
 
 ```js
 const gulp = require('gulp');
@@ -66,7 +66,7 @@ $ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 ### Contributors
 
-| **Commits** | **Contributor** | 
+| **Commits** | **Contributor** |
 | --- | --- |
 | 41 | [shinnn](https://github.com/shinnn) |
 | 20 | [jonschlinkert](https://github.com/jonschlinkert) |
