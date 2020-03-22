@@ -1,8 +1,8 @@
 {
-  "name": "gulp-htmlmin",
+  "name": "gulp-html-minifier-terser",
   "description": "gulp plugin to minify HTML.",
   "version": "5.0.1",
-  "homepage": "https://github.com/jonschlinkert/gulp-htmlmin",
+  "homepage": "https://github.com/pioug/gulp-html-minifier-terser",
   "authors": [
     {
       "name": "Jon Schlinkert",
@@ -29,9 +29,9 @@
     "Tom Byrer (https://github.com/tomByrer)",
     "(https://github.com/TheDancingCode)"
   ],
-  "repository": "jonschlinkert/gulp-htmlmin",
+  "repository": "pioug/gulp-html-minifier-terser",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/gulp-htmlmin/issues"
+    "url": "https://github.com/pioug/gulp-html-minifier-terser/issues"
   },
   "license": "MIT",
   "files": [

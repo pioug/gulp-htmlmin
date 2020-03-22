@@ -1,15 +1,13 @@
-# gulp-htmlmin [![NPM version](https://img.shields.io/npm/v/gulp-htmlmin.svg?style=flat)](https://www.npmjs.com/package/gulp-htmlmin) [![NPM monthly downloads](https://img.shields.io/npm/dm/gulp-htmlmin.svg?style=flat)](https://npmjs.org/package/gulp-htmlmin) [![NPM total downloads](https://img.shields.io/npm/dt/gulp-htmlmin.svg?style=flat)](https://npmjs.org/package/gulp-htmlmin) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/gulp-htmlmin.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/gulp-htmlmin)
+# gulp-html-minifier-terser [![NPM version](https://img.shields.io/npm/v/gulp-html-minifier-terser.svg?style=flat)](https://www.npmjs.com/package/gulp-html-minifier-terser) [![NPM monthly downloads](https://img.shields.io/npm/dm/gulp-html-minifier-terser.svg?style=flat)](https://npmjs.org/package/gulp-html-minifier-terser) [![NPM total downloads](https://img.shields.io/npm/dt/gulp-html-minifier-terser.svg?style=flat)](https://npmjs.org/package/gulp-html-minifier-terser) ![Run tests](https://github.com/pioug/gulp-html-minifier-terser/workflows/Run%20tests/badge.svg)
 
 > gulp plugin to minify HTML.
-
-Please consider following this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), and consider starring the project to show your :heart: and support.
 
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install --save gulp-htmlmin
+$ npm install --save gulp-html-minifier-terser
 ```
 
 ## Heads up!
@@ -22,7 +20,7 @@ See the [html-minifer-terser docs](https://github.com/DanielRuf/html-minifier-te
 
 ```js
 const gulp = require('gulp');
-const htmlmin = require('gulp-htmlmin');
+const htmlmin = require('gulp-html-minifier-terser');
 
 gulp.task('minify', () => {
   return gulp.src('src/*.html')

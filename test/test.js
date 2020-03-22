@@ -24,7 +24,7 @@ let errorFile = new File({
   contents: Buffer.from(errorFileContents)
 });
 
-describe('gulp-htmlmin', () => {
+describe('gulp-html-minifier-terser', () => {
   describe('file.contents - buffer', () => {
     it('should ignore empty file', cb => {
       let stream = minify();

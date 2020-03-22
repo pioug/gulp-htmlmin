@@ -23,7 +23,7 @@ module.exports = options => {
         next(null, file);
       } catch (err) {
         let opts = Object.assign({}, options, { fileName: file.path });
-        let error = new PluginError('gulp-htmlmin', err, opts);
+        let error = new PluginError('gulp-html-minifier-terser', err, opts);
         if (next !== cb) {
           next(error);
           return;
