@@ -1,7 +1,7 @@
 {
   "name": "gulp-html-minifier-terser",
   "description": "gulp plugin to minify HTML.",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "homepage": "https://github.com/pioug/gulp-html-minifier-terser",
   "authors": [
     {
