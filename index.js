@@ -11,9 +11,9 @@ module.exports = options => {
       return;
     }
 
-    const minify = (buf, _, cb) => {
+    const minify = async (buf, _, cb) => {
       try {
-        let contents = Buffer.from(htmlmin.minify(buf.toString(), options));
+        let contents = Buffer.from(await htmlmin.minify(buf.toString(), options));
         if (next === cb) {
           file.contents = contents;
           cb(null, file);
