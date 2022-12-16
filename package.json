@@ -45,7 +45,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "html-minifier-terser": "^7.0.0-beta.0",
+    "html-minifier-terser": "^7.1.0",
     "plugin-error": "^2.0.0",
     "through2": "^4.0.2"
   },
